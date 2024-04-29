@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Railway_reservationModelStoreContainer" CdmEntityContainer="Railway_reservationEntities1">
+    <EntitySetMapping Name="Admin_Login">
+      <EntityTypeMapping TypeName="Railway_reservationModel.Admin_Login">
+        <MappingFragment StoreEntitySet="Admin_Login">
+          <ScalarProperty Name="Admin_Code" ColumnName="Admin_Code" />
+          <ScalarProperty Name="Admin_userName" ColumnName="Admin_userName" />
+          <ScalarProperty Name="Admin_pass" ColumnName="Admin_pass" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Booked_Tickets">
+      <EntityTypeMapping TypeName="Railway_reservationModel.Booked_Tickets">
+        <MappingFragment StoreEntitySet="Booked_Tickets">
+          <ScalarProperty Name="Ticket_Id" ColumnName="Ticket_Id" />
+          <ScalarProperty Name="Train_no" ColumnName="Train_no" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="Passenger_Name" ColumnName="Passenger_Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cancellation_Data">
+      <EntityTypeMapping TypeName="Railway_reservationModel.Cancellation_Data">
+        <MappingFragment StoreEntitySet="Cancellation_Data">
+          <ScalarProperty Name="Canc_ID" ColumnName="Canc_ID" />
+          <ScalarProperty Name="Train_no" ColumnName="Train_no" />
+          <ScalarProperty Name="Ticket_ID" ColumnName="Ticket_ID" />
+          <ScalarProperty Name="Canc_Date" ColumnName="Canc_Date" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Refund_Amount" ColumnName="Refund_Amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Trains">
+      <EntityTypeMapping TypeName="Railway_reservationModel.Train">
+        <MappingFragment StoreEntitySet="Trains">
+          <ScalarProperty Name="Train_no" ColumnName="Train_no" />
+          <ScalarProperty Name="Train_name" ColumnName="Train_name" />
+          <ScalarProperty Name="Source_loc" ColumnName="Source_loc" />
+          <ScalarProperty Name="Destination" ColumnName="Destination" />
+          <ScalarProperty Name="Train_Status" ColumnName="Train_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="user_login">
+      <EntityTypeMapping TypeName="Railway_reservationModel.user_login">
+        <MappingFragment StoreEntitySet="user_login">
+          <ScalarProperty Name="user_Code" ColumnName="user_Code" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Available_Seats">
+      <EntityTypeMapping TypeName="Railway_reservationModel.Available_Seats">
+        <MappingFragment StoreEntitySet="Available_Seats">
+          <ScalarProperty Name="Sequence" ColumnName="Sequence" />
+          <ScalarProperty Name="Train_No" ColumnName="Train_No" />
+          <ScalarProperty Name="First_AC" ColumnName="First_AC" />
+          <ScalarProperty Name="Second_AC" ColumnName="Second_AC" />
+          <ScalarProperty Name="Sleeper" ColumnName="Sleeper" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Fare_S">
+      <EntityTypeMapping TypeName="Railway_reservationModel.Fare_S">
+        <MappingFragment StoreEntitySet="Fare_S">
+          <ScalarProperty Name="SequenceNo" ColumnName="SequenceNo" />
+          <ScalarProperty Name="Train_id" ColumnName="Train_id" />
+          <ScalarProperty Name="First_ACf" ColumnName="First_ACf" />
+          <ScalarProperty Name="Second_ACf" ColumnName="Second_ACf" />
+          <ScalarProperty Name="Sleeperf" ColumnName="Sleeperf" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="Add_FairDet" FunctionName="Railway_reservationModel.Store.Add_FairDet" />
+    <FunctionImportMapping FunctionImportName="Add_Seatdet" FunctionName="Railway_reservationModel.Store.Add_Seatdet" />
+    <FunctionImportMapping FunctionImportName="AddSeat" FunctionName="Railway_reservationModel.Store.AddSeat" />
+    <FunctionImportMapping FunctionImportName="RemoveSeat" FunctionName="Railway_reservationModel.Store.RemoveSeat" />
+  </EntityContainerMapping>
+</Mapping>

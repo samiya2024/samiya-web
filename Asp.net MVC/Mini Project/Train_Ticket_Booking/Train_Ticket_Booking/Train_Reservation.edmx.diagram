@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9a5c26535cb34ab2b2095c787f4114c2" Name="Diagram1">
+        <EntityTypeShape EntityType="Railway_reservationModel.Admin_Login" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Railway_reservationModel.Booked_Tickets" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Railway_reservationModel.Cancellation_Data" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Railway_reservationModel.Train" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Railway_reservationModel.user_login" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Railway_reservationModel.Available_Seats" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Railway_reservationModel.Fare_S" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <AssociationConnector Association="Railway_reservationModel.FK__Booked_Ti__Train__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="Railway_reservationModel.FK__Cancellat__Train__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="Railway_reservationModel.FK__Available__Train__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="Railway_reservationModel.FK__Fare_S__Train_id__45F365D3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

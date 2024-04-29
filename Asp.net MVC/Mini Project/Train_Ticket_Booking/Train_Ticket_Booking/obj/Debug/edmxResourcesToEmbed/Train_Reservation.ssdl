@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Railway_reservationModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Admin_Login">
+    <Key>
+      <PropertyRef Name="Admin_Code" />
+    </Key>
+    <Property Name="Admin_Code" Type="int" Nullable="false" />
+    <Property Name="Admin_userName" Type="varchar" MaxLength="20" />
+    <Property Name="Admin_pass" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Railway_reservation.dbo.Available_Seats' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Available_Seats">
+    <Key>
+      <PropertyRef Name="Sequence" />
+    </Key>
+    <Property Name="Sequence" Type="numeric" Precision="3" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Train_No" Type="int" />
+    <Property Name="First_AC" Type="numeric" Precision="5" Scale="0" />
+    <Property Name="Second_AC" Type="numeric" Precision="5" Scale="0" />
+    <Property Name="Sleeper" Type="numeric" Precision="5" Scale="0" />
+  </EntityType>
+  <EntityType Name="Booked_Tickets">
+    <Key>
+      <PropertyRef Name="Ticket_Id" />
+    </Key>
+    <Property Name="Ticket_Id" Type="numeric" Precision="6" Scale="0" Nullable="false" />
+    <Property Name="Train_no" Type="int" />
+    <Property Name="Class" Type="varchar" MaxLength="7" />
+    <Property Name="Passenger_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Gender" Type="varchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="Cancellation_Data">
+    <Key>
+      <PropertyRef Name="Canc_ID" />
+    </Key>
+    <Property Name="Canc_ID" Type="int" Nullable="false" />
+    <Property Name="Train_no" Type="int" />
+    <Property Name="Ticket_ID" Type="int" />
+    <Property Name="Canc_Date" Type="date" />
+    <Property Name="Status" Type="varchar" MaxLength="50" />
+    <Property Name="Refund_Amount" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Railway_reservation.dbo.Fare_S' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Fare_S">
+    <Key>
+      <PropertyRef Name="SequenceNo" />
+    </Key>
+    <Property Name="SequenceNo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Train_id" Type="int" />
+    <Property Name="First_ACf" Type="numeric" Precision="5" Scale="0" />
+    <Property Name="Second_ACf" Type="numeric" Precision="5" Scale="0" />
+    <Property Name="Sleeperf" Type="numeric" Precision="5" Scale="0" />
+  </EntityType>
+  <EntityType Name="Trains">
+    <Key>
+      <PropertyRef Name="Train_no" />
+    </Key>
+    <Property Name="Train_no" Type="int" Nullable="false" />
+    <Property Name="Train_name" Type="varchar" MaxLength="50" />
+    <Property Name="Source_loc" Type="varchar" MaxLength="50" />
+    <Property Name="Destination" Type="varchar" MaxLength="50" />
+    <Property Name="Train_Status" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="user_login">
+    <Key>
+      <PropertyRef Name="user_Code" />
+    </Key>
+    <Property Name="user_Code" Type="int" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <Association Name="FK__Available__Train__3F466844">
+    <End Role="Trains" Type="Self.Trains" Multiplicity="0..1" />
+    <End Role="Available_Seats" Type="Self.Available_Seats" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Trains">
+        <PropertyRef Name="Train_no" />
+      </Principal>
+      <Dependent Role="Available_Seats">
+        <PropertyRef Name="Train_No" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Booked_Ti__Train__3A81B327">
+    <End Role="Trains" Type="Self.Trains" Multiplicity="0..1" />
+    <End Role="Booked_Tickets" Type="Self.Booked_Tickets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Trains">
+        <PropertyRef Name="Train_no" />
+      </Principal>
+      <Dependent Role="Booked_Tickets">
+        <PropertyRef Name="Train_no" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Cancellat__Train__3D5E1FD2">
+    <End Role="Trains" Type="Self.Trains" Multiplicity="0..1" />
+    <End Role="Cancellation_Data" Type="Self.Cancellation_Data" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Trains">
+        <PropertyRef Name="Train_no" />
+      </Principal>
+      <Dependent Role="Cancellation_Data">
+        <PropertyRef Name="Train_no" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Fare_S__Train_id__45F365D3">
+    <End Role="Trains" Type="Self.Trains" Multiplicity="0..1" />
+    <End Role="Fare_S" Type="Self.Fare_S" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Trains">
+        <PropertyRef Name="Train_no" />
+      </Principal>
+      <Dependent Role="Fare_S">
+        <PropertyRef Name="Train_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="Add_FairDet" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="train_id" Type="numeric" Mode="In" />
+    <Parameter Name="facf" Type="int" Mode="In" />
+    <Parameter Name="sacf" Type="int" Mode="In" />
+    <Parameter Name="tacf" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Add_Seatdet" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="trainid" Type="numeric" Mode="In" />
+    <Parameter Name="fac" Type="int" Mode="In" />
+    <Parameter Name="sac" Type="int" Mode="In" />
+    <Parameter Name="tac" Type="int" Mode="In" />
+  </Function>
+  <Function Name="AddSeat" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="trainNo" Type="int" Mode="In" />
+    <Parameter Name="class1" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="RemoveSeat" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="trainNo" Type="int" Mode="In" />
+    <Parameter Name="class1" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="Railway_reservationModelStoreContainer">
+    <EntitySet Name="Admin_Login" EntityType="Self.Admin_Login" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Booked_Tickets" EntityType="Self.Booked_Tickets" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cancellation_Data" EntityType="Self.Cancellation_Data" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Trains" EntityType="Self.Trains" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="user_login" EntityType="Self.user_login" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Available_Seats" EntityType="Self.Available_Seats" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Available_Seats].[Sequence] AS [Sequence], 
+    [Available_Seats].[Train_No] AS [Train_No], 
+    [Available_Seats].[First_AC] AS [First_AC], 
+    [Available_Seats].[Second_AC] AS [Second_AC], 
+    [Available_Seats].[Sleeper] AS [Sleeper]
+    FROM [dbo].[Available_Seats] AS [Available_Seats]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Fare_S" EntityType="Self.Fare_S" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Fare_S].[SequenceNo] AS [SequenceNo], 
+    [Fare_S].[Train_id] AS [Train_id], 
+    [Fare_S].[First_ACf] AS [First_ACf], 
+    [Fare_S].[Second_ACf] AS [Second_ACf], 
+    [Fare_S].[Sleeperf] AS [Sleeperf]
+    FROM [dbo].[Fare_S] AS [Fare_S]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__Available__Train__3F466844" Association="Self.FK__Available__Train__3F466844">
+      <End Role="Trains" EntitySet="Trains" />
+      <End Role="Available_Seats" EntitySet="Available_Seats" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Booked_Ti__Train__3A81B327" Association="Self.FK__Booked_Ti__Train__3A81B327">
+      <End Role="Trains" EntitySet="Trains" />
+      <End Role="Booked_Tickets" EntitySet="Booked_Tickets" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Cancellat__Train__3D5E1FD2" Association="Self.FK__Cancellat__Train__3D5E1FD2">
+      <End Role="Trains" EntitySet="Trains" />
+      <End Role="Cancellation_Data" EntitySet="Cancellation_Data" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Fare_S__Train_id__45F365D3" Association="Self.FK__Fare_S__Train_id__45F365D3">
+      <End Role="Trains" EntitySet="Trains" />
+      <End Role="Fare_S" EntitySet="Fare_S" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
