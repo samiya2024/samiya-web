@@ -1,0 +1,9 @@
+﻿@model IEnumerable<MVC_Assessment1_2_.Models.Movies>
+
+@foreach (var movie in Model)
+{
+    <div>
+        <h4>@movie.Moviename</h4>
+        <p>@movie.DateofRelease.ToShortDateString()</p>
+    </div>
+}

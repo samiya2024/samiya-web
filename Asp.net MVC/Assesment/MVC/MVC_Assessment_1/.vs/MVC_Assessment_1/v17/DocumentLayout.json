@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Infinite training\\Assessment\\MVC\\MVC_Assessment_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8EC4A5B-AACE-4C6D-8097-ECE41AE884E6}|MVC_Assessment_1\\MVC_Assessment_1.csproj|d:\\infinite training\\assessment\\mvc\\mvc_assessment_1\\mvc_assessment_1\\views\\code\\customerdetailsfororderid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E8EC4A5B-AACE-4C6D-8097-ECE41AE884E6}|MVC_Assessment_1\\MVC_Assessment_1.csproj|solutionrelative:mvc_assessment_1\\views\\code\\customerdetailsfororderid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerDetailsForOrderId.cshtml",
+              "DocumentMoniker": "D:\\Infinite training\\Assessment\\MVC\\MVC_Assessment_1\\MVC_Assessment_1\\Views\\Code\\CustomerDetailsForOrderId.cshtml",
+              "RelativeDocumentMoniker": "MVC_Assessment_1\\Views\\Code\\CustomerDetailsForOrderId.cshtml",
+              "ToolTip": "D:\\Infinite training\\Assessment\\MVC\\MVC_Assessment_1\\MVC_Assessment_1\\Views\\Code\\CustomerDetailsForOrderId.cshtml",
+              "RelativeToolTip": "MVC_Assessment_1\\Views\\Code\\CustomerDetailsForOrderId.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAAYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T06:27:57.917Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

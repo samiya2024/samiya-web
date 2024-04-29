@@ -1,0 +1,43 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <h2>Customers in Germany</h2>
+        <table>
+            <tr>
+                <th>Customer ID</th>
+                <th>Company Name</th>
+                <th>Contact Name</th>
+             
+               
+                <th>Country</th>
+              
+            </tr>
+            @foreach (var customer in Model)
+            {
+                <tr>
+                    <td>@customer.CustomerID</td>
+                    <td>@customer.CompanyName</td>
+                    <td>@customer.ContactName</td>
+                    
+                    
+                 
+                   
+                    <td>@customer.Country</td>
+                
+                   
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>
