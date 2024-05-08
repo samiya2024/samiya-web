@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|d:\\infinite_web\\assesment\\mvc_core\\mvc_core_ass\\mvc_core_ass\\controllers\\ekartsyscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|solutionrelative:mvc_core_ass\\controllers\\ekartsyscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|d:\\infinite_web\\assesment\\mvc_core\\mvc_core_ass\\mvc_core_ass\\views\\ekartsys\\customerdetailsbyorderdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|solutionrelative:mvc_core_ass\\views\\ekartsys\\customerdetailsbyorderdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|d:\\infinite_web\\assesment\\mvc_core\\mvc_core_ass\\mvc_core_ass\\views\\ekartsys\\customerwithhighestorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|solutionrelative:mvc_core_ass\\views\\ekartsys\\customerwithhighestorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|d:\\infinite_web\\assesment\\mvc_core\\mvc_core_ass\\mvc_core_ass\\views\\ekartsys\\displaybill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|solutionrelative:mvc_core_ass\\views\\ekartsys\\displaybill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|d:\\infinite_web\\assesment\\mvc_core\\mvc_core_ass\\mvc_core_ass\\views\\ekartsys\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|solutionrelative:mvc_core_ass\\views\\ekartsys\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|d:\\infinite_web\\assesment\\mvc_core\\mvc_core_ass\\mvc_core_ass\\views\\ekartsys\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|solutionrelative:mvc_core_ass\\views\\ekartsys\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|d:\\infinite_web\\assesment\\mvc_core\\mvc_core_ass\\mvc_core_ass\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|solutionrelative:mvc_core_ass\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|d:\\infinite_web\\assesment\\mvc_core\\mvc_core_ass\\mvc_core_ass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|solutionrelative:mvc_core_ass\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|d:\\infinite_web\\assesment\\mvc_core\\mvc_core_ass\\mvc_core_ass\\repository\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|solutionrelative:mvc_core_ass\\repository\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|d:\\infinite_web\\assesment\\mvc_core\\mvc_core_ass\\mvc_core_ass\\repository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|solutionrelative:mvc_core_ass\\repository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|d:\\infinite_web\\assesment\\mvc_core\\mvc_core_ass\\mvc_core_ass\\models\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2072D0CC-69D1-44D8-A97F-197F25A262D4}|MVC_CORE_Ass\\MVC_CORE_Ass.csproj|solutionrelative:mvc_core_ass\\models\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlaceOrder.cshtml",
+              "DocumentMoniker": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Views\\EkartSys\\PlaceOrder.cshtml",
+              "RelativeDocumentMoniker": "MVC_CORE_Ass\\Views\\EkartSys\\PlaceOrder.cshtml",
+              "ToolTip": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Views\\EkartSys\\PlaceOrder.cshtml",
+              "RelativeToolTip": "MVC_CORE_Ass\\Views\\EkartSys\\PlaceOrder.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:51:53.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DisplayBill.cshtml",
+              "DocumentMoniker": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Views\\EkartSys\\DisplayBill.cshtml",
+              "RelativeDocumentMoniker": "MVC_CORE_Ass\\Views\\EkartSys\\DisplayBill.cshtml",
+              "ToolTip": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Views\\EkartSys\\DisplayBill.cshtml",
+              "RelativeToolTip": "MVC_CORE_Ass\\Views\\EkartSys\\DisplayBill.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:54:04.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerDetailsByOrderDate.cshtml",
+              "DocumentMoniker": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Views\\EkartSys\\CustomerDetailsByOrderDate.cshtml",
+              "RelativeDocumentMoniker": "MVC_CORE_Ass\\Views\\EkartSys\\CustomerDetailsByOrderDate.cshtml",
+              "ToolTip": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Views\\EkartSys\\CustomerDetailsByOrderDate.cshtml",
+              "RelativeToolTip": "MVC_CORE_Ass\\Views\\EkartSys\\CustomerDetailsByOrderDate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAwwBQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:55:11.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\appsettings.json",
+              "RelativeDocumentMoniker": "MVC_CORE_Ass\\appsettings.json",
+              "ToolTip": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\appsettings.json",
+              "RelativeToolTip": "MVC_CORE_Ass\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-08T06:57:29.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Program.cs",
+              "RelativeDocumentMoniker": "MVC_CORE_Ass\\Program.cs",
+              "ToolTip": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Program.cs",
+              "RelativeToolTip": "MVC_CORE_Ass\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T06:56:41.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EkartSysController.cs",
+              "DocumentMoniker": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Controllers\\EkartSysController.cs",
+              "RelativeDocumentMoniker": "MVC_CORE_Ass\\Controllers\\EkartSysController.cs",
+              "ToolTip": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Controllers\\EkartSysController.cs",
+              "RelativeToolTip": "MVC_CORE_Ass\\Controllers\\EkartSysController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T06:50:31.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Views\\EkartSys\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "MVC_CORE_Ass\\Views\\EkartSys\\OrderDetails.cshtml",
+              "ToolTip": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Views\\EkartSys\\OrderDetails.cshtml",
+              "RelativeToolTip": "MVC_CORE_Ass\\Views\\EkartSys\\OrderDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:53:13.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerWithHighestOrder.cshtml",
+              "DocumentMoniker": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Views\\EkartSys\\CustomerWithHighestOrder.cshtml",
+              "RelativeDocumentMoniker": "MVC_CORE_Ass\\Views\\EkartSys\\CustomerWithHighestOrder.cshtml",
+              "ToolTip": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Views\\EkartSys\\CustomerWithHighestOrder.cshtml",
+              "RelativeToolTip": "MVC_CORE_Ass\\Views\\EkartSys\\CustomerWithHighestOrder.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T06:56:17.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderRepo.cs",
+              "DocumentMoniker": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Repository\\OrderRepo.cs",
+              "RelativeDocumentMoniker": "MVC_CORE_Ass\\Repository\\OrderRepo.cs",
+              "ToolTip": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Repository\\OrderRepo.cs",
+              "RelativeToolTip": "MVC_CORE_Ass\\Repository\\OrderRepo.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T06:47:17.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Repository\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "MVC_CORE_Ass\\Repository\\IOrderRepository.cs",
+              "ToolTip": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Repository\\IOrderRepository.cs",
+              "RelativeToolTip": "MVC_CORE_Ass\\Repository\\IOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T06:45:57.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NorthwindContext.cs",
+              "DocumentMoniker": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Models\\NorthwindContext.cs",
+              "RelativeDocumentMoniker": "MVC_CORE_Ass\\Models\\NorthwindContext.cs",
+              "ToolTip": "D:\\Infinite_WEB\\Assesment\\MVC_CORE\\MVC_CORE_Ass\\MVC_CORE_Ass\\Models\\NorthwindContext.cs",
+              "RelativeToolTip": "MVC_CORE_Ass\\Models\\NorthwindContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T06:43:37.258Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
